@@ -1,0 +1,60 @@
+@import "base.css";
+
+/*引进公共样式*/
+
+@import "common.css";
+
+/*home-header begin*/
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.about-us{
+   height: 600px;
+}
+.about-l{
+    width: 50%;
+}
+.about-l h2{
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    padding-left: 30%;
+    color: #333333;
+    font-size: 28px;
+    font-weight: 700;
+}
+.about-l li{
+    font-size: 14px;
+    font-family: "Regular";
+    margin-bottom: 12px;
+}
+.about-l li{
+    
+}
+
+.ml{
+    margin-left: 10%;
+}
+.about-r{
+    width: 50%;
+}
+.contact-map {
+    margin-top: 12%;
+    width:600px;
+    height:398px;
+}
+.amap-marker-label{
+    font-size: 16px;
+    border: 1px solid gray;
+
+    width: 260px;
+	height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 4px 4px 4px 4px;
+	border: solid 1px rgba(125, 125, 125, 1);
+}

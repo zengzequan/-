@@ -1,0 +1,92 @@
+@import "base.css";
+
+/*引进公共样式*/
+
+@import "common.css";
+
+/*home-header begin*/
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.zhao{
+    height: 570px;
+    background: url(../images/join/招聘.jpg) no-repeat center;
+}
+.book h2{
+    margin-top: 50px;
+    text-align: center;
+    color: #333333;
+    font-size: 48px;
+    padding: 0 40%;
+}
+.xian{
+    border: 1px solid black;
+}
+.book h3{
+    margin-top: 16px;
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+}
+.book p{
+    color: #666666;
+    font-size: 30px;
+    margin: 50px 8% 0px;
+}
+.book div div ul{
+    display: flex;
+    height: 200px;
+    justify-content:space-around;
+    margin-top: 52px;
+}
+.book div div ul li{
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+    border: 1px solid #c4c4c4;
+    cursor: pointer;  
+    transition: all 0.6s;
+}
+.book div div ul li:hover{
+    transform: scale(1.02); 
+}
+.shu{
+    height: 836px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.shu div{
+    width: 40%;
+    border: 1px solid #c4c4c4;
+    border-radius: 1.5%;
+}
+.tt{
+    margin-top: 78px !important;
+}
+.bb{
+    margin-bottom: 78px !important;
+}
+.shu div:last-child
+{
+    border: 0px solid white;
+}
+.shu div:last-child img{
+    width: 100%;
+}
+.shu div:first-child img{
+    margin-left: 35%;
+    margin-top: 12%;
+    margin-bottom: 10px;
+    width: 28%;
+}
+.shu div p {
+    margin-bottom: 22px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.shu div .da{
+    font-weight: 700;
+}

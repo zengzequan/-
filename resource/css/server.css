@@ -1,0 +1,90 @@
+/*清除浏览器默认样式*/
+
+@import "base.css";
+
+/*引进公共样式*/
+
+@import "common.css";
+
+/*home-header begin*/
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.swiper-container {
+    overflow: hidden;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+  }
+  .lunbo{
+    background: url(../images/server/背景1.jpg) no-repeat center;
+    height: 568px;
+    
+  }
+
+.app{
+    height: 852px;
+    background: url(../images/server/背景2.jpg) no-repeat center;
+}
+.app-l{
+    margin-top: 5%;
+    margin-left: 10%;
+    display: inline-block;
+}
+.app-r{
+    margin-top: 5%;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    color: #333333;
+    font:  normal normal 24px 'Arial', 'Regular';
+    margin-right: 10%;
+    line-height: 37px;
+}
+.app-r>div{
+    padding-top: 20px;
+}
+.app2{
+    height: 852px;
+    background: url(../images/server/背景3.jpg) ;
+}
+.app-r2{
+    margin-top: 5%;
+    margin-right: 10%;
+    display: inline-block;
+}
+.app-l2{
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    color: #ffffff;
+    font:  normal normal 36px 'Arial', 'Regular';
+    line-height: 37px;
+    position: relative;
+}
+
+.app-l2-top{
+    position: absolute;
+    right: 0;
+}
+.app-l2-bottom{
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+.app-l2-bottom ul li {
+    padding-top: 75px;
+}
+
+

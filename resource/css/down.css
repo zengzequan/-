@@ -1,0 +1,58 @@
+@import "base.css";
+
+/*引进公共样式*/
+
+@import "common.css";
+
+/*home-header begin*/
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.app{
+    height: 920px;
+    background: url(../images/down/下载背景.jpg) no-repeat center;
+}
+.app-l{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: inline-block;
+}
+.app-r{
+    margin-top: 12%;
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+    color: #333333;
+    font:  normal normal 24px 'Arial', 'Regular';
+    margin-right: 5%;
+    line-height: 37px;
+}
+.app-r h2{
+    margin-left: 4%;
+    font:normal normal 32px 'Arial', 'Regular';
+    color: #333333;
+    font-weight: bold;
+}
+.app-r p{
+    margin-left: 4%;
+    color: #333333;
+    margin-top: 6%;
+    font:normal normal 18px 'Arial', 'Regular';
+    font-weight: 700;
+    padding-right: 72px;
+}
+.app-r img{
+    margin-right: 10%;
+}
+.app-r .img2 img{
+    margin-right: -8px;
+}
+.app-r .img1 {
+    margin-top: 8%;
+    margin-left: 4%;
+}
+.app-r>div{
+    padding-top: 20px;
+}

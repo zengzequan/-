@@ -1,0 +1,41 @@
+/*CSS Reset*/
+html,body{font-family:'Arial','Microsoft YaHei',"SimSun";font-size:16px;margin:0;padding:0;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,textarea,select,optgroup,option,fieldset,legend,p,blockquote,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;vertical-align:middle;}
+li{list-style:none;vertical-align:middle;}
+dl{vertical-align:middle;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;outline:none;-webkit-appearence:none;-ms-appearence:none;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{border:none;background:none;-webkit-appearance:none;outline:none;}
+a{-webkit-touch-callout:none;text-decoration:none;outline:0;}
+em,i{font-style:normal;}
+::-webkit-input-placeholder{color: #999;}
+
+/*清除浮动*/
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/*浮动*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+
+

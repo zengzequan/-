@@ -1,0 +1,110 @@
+/*清除浏览器默认样式*/
+
+@import "base.css";
+
+/*引进公共样式*/
+@import "common.css";
+/*home-header begin*/
+.center {
+    width:1200px;
+    margin:0 auto;
+}
+
+
+.contact-header {
+    height: 570px;
+    width: 100%;
+    background:url(../images/product/组1.jpg) no-repeat center;
+    background-size: cover;
+    border-top: 1px solid #3a75da;
+}
+.contact-header .contact-h {
+    font-size: 40px;
+    color: #fff;
+    height: 240px;
+    line-height: 240px;
+    text-align: center;
+}
+/*home-header end*/
+/* content */
+.content{
+    height: 1144px;
+}
+.content-top h2{
+    padding-top: 50px;
+    font:  normal normal 30px/50px 'Arial', 'Regular';
+    color: #333333; 
+    text-align: center;
+    height: 50px;     
+}
+.content-top h3{
+    font:  normal normal 18px/50px 'Arial', 'Regular';
+    color: #333333; 
+    text-align: center;
+    height: 50px;     
+}
+.content-bottom {
+    margin-top: 50px;
+    height: 802px;
+}
+.content-bottom ul li{
+    float: left;
+    width: 30%;
+    height: 372px;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    background-color: blue;
+    position: relative;
+}
+.content-bottom ul li img{
+    cursor: pointer;  
+    transition: all 0.6s;
+}
+.content-bottom ul li img:hover{
+    transform: scale(1.05);  
+}
+/* info  */
+.info{   
+    background: url(../images/index/蓝背景.jpg) no-repeat center;
+    height: 698px;
+    padding-top: 93px;
+}
+.info-main{
+    background-color:rgba(255, 255, 255, 0.4);
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 35px;
+    
+}
+.info-main p{
+    font:  normal normal 24px/50px 'Arial', 'Regular';
+    color: #333333;  
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+.info-main h2{
+    font:  normal normal 30px/50px 'Arial', 'Regular';
+    color: #333333; 
+    text-align: center;
+    height: 50px;     
+}
+.info-main h3{
+    font:  normal normal 18px/50px 'Arial', 'Regular';
+    color: #333333; 
+    text-align: center;
+    height: 50px;     
+}
+.info-main ul {
+   margin-left: 10px; 
+   margin-top: 20px;
+}
+.info-main ul li{
+    font:  normal normal 28px/50px 'Arial', 'Regular';
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}

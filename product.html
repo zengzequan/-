@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta http-equiv=“X-UA-Compatible” content=“IE=8″>
+    <meta http-equiv=“X-UA-Compatible” content=“IE=9″>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link Swiper's CSS -->
+    <!--<link rel="stylesheet" href="resource/css/swiper-3.4.2.min.css">-->
+    <link href="resource/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./resource/css/product.css">
+    <link rel="shortcut icon" type=image/x-icon href="./resource/images/图层1.png" />
+    <title>民众国际 千店万厂</title>
+</head>
+
+<body>
+    <!--common-header begin-->
+    <div class="common-header">
+            <div class="tel"><img src="./resource/images/index/电话副本.png" alt="千店万厂">&nbsp&nbsp400-837-3338</div>
+        <div class="wrap-sub clearfix">
+                
+            <p class="logo">
+                <a href="index.html">
+                    <img src="resource/images/index/logo.png" alt="千店万厂">
+                </a>
+            </p>
+            <ul class="fr">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li class="active">
+                    <a href="product.html">厂家介绍</a>
+                </li>
+                <li>
+                    <a href="server.html">服务</a>
+                </li>
+                <li>
+                    <a href="down.html">APP下载</a>
+                </li>
+                <li>
+                    <a href="about-us.html">关于我们</a>
+                </li>
+                <li>
+                    <a href="join.html">加入我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--common-header end-->
+
+
+    <!--banner begin-->
+    <div class="contact-header clearfix">
+        <div class="contact-h center">
+        </div>
+    </div>
+    <!--banner end-->
+    <!-- shebei begin -->
+    <div class="content">
+        <div class="content-top">
+            <h2>产品展示</h2>
+            <h3>Product Display</h3>
+        </div>
+        <div class="content-bottom center">
+            <ul>
+                <li>
+                    <img src="./resource/images/product/暗缝机.jpg" alt="千店万厂">
+                </li>
+                <li>
+                    <img src="./resource/images/product/定型机.jpg" alt="千店万厂">
+                </li>
+                <li>
+                    <img src="./resource/images/product/电烫熨.jpg" alt="千店万厂">
+                </li>
+                <li>
+                    <img src="./resource/images/product/绘图机.jpg" alt="千店万厂">
+                </li>
+                <li>
+                    <img src="./resource/images/product/裁线机.jpg" alt="千店万厂">
+                </li>
+                <li>
+                    <img src="./resource/images/product/验卷机1.jpg" alt="千店万厂">
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- shebei end -->
+
+
+    <div class="info">
+        <div class="info-main ">
+            <h2>产品分类</h2>
+            <h3>BUSINESS INTRODUCTION</h3>
+           <ul>
+               <li>外贸服装加工</li>
+               <li>职业装工作服定制</li>
+               <li>校服定制</li>
+               <li>文化广告衫</li>
+               <li>女装定制</li>
+               <li>婚纱礼服定制</li>
+               <li>旗袍定制</li>
+               <li>运动休闲服定制</li>
+               <li>来图加工</li>
+               <li>来样加工</li>
+               <li>来料加工</li>
+           </ul>
+        </div>
+    </div>
+
+
+
+    <!--about-us end-->
+    <!--product end-->
+    <!--connection begin-->
+    <div class="connection">
+        <div class="wrap">
+            <ul class="icon clearfix">
+                <li class="fl">
+                    <ul>
+                        <span>广州民众国际贸易有限公司</span>
+                        <li>Add: 广州市白云区石井广大鞋城2期民众国际贸易</li>
+                        <li>TelT：400-837-3338</li>
+                        <li>QQ：1853312009</li>
+                        <li>E-mail：1853312009@qq.com</li>
+                    </ul>
+                </li>
+                <li class="fr">
+                    <ul>
+                        <span>关注我们:</span>
+                        <div>
+                            <span class="fl">
+                                <img src="./resource/images/index/qq.png" alt="千店万厂"> </span>
+                            &nbsp&nbsp&nbsp&nbsp
+                            <span class="fl">
+                                <img src="./resource/images/index/微信.png" alt="千店万厂">
+                            </span>
+                        </div>
+
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>粤ICP备17099811号 ©2017 广州民众国际贸易有限公司 ©未经许可严禁复制</p>
+        </div>
+    </div>
+    <!--connection end-->
+
+    <!--footer begin-->
+    
+    <!--footer end-->
+
+    <!--goTop begin-->
+    <span class="goTop" id="goTop">
+        <img src="resource/images/index/gotop.png" alt="千店万厂">
+    </span>
+    <!--goTop end-->
+    <script src="resource/js/lib/jquery-1.9.1.js"></script>
+    <!-- Swiper JS -->
+    <script data-main="modules/src/index" src="resource/js/common/base.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var shuomin=$(".content-bottom ul li");
+        shuomin.mouseover(
+            function(){
+                
+                $(this).find(".shuomin").css('display','none');
+            }
+        )
+        shuomin.mouseout(
+            function(){
+                $(this).find(".shuomin").css('display','block');
+            }
+        )
+    
+    </script>
+
+</body>
+
+</html>

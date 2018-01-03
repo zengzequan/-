@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta http-equiv=“X-UA-Compatible” content=“IE=8″>
+    <meta http-equiv=“X-UA-Compatible” content=“IE=9″>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link Swiper's CSS -->
+    <!--<link rel="stylesheet" href="resource/css/swiper-3.4.2.min.css">-->
+    <link href="resource/css/main.css" rel="stylesheet" />
+    <link href="resource/css/about-us.css" rel="stylesheet" />
+    <link rel="shortcut icon" type=image/x-icon href="./resource/images/图层1.png" />
+    <title>民众国际 千店万厂</title>
+</head>
+
+<body>
+    <!--common-header begin-->
+    <div class="common-header">
+            <div class="tel"><img src="./resource/images/index/电话副本.png" alt="">&nbsp&nbsp400-837-3338</div>
+        <div class="wrap-sub clearfix">
+               
+            <p class="logo">
+                <a href="index.html">
+                    <img src="resource/images/index/logo.png" alt="logo">
+                </a>
+            </p>
+            <ul class="fr">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="product.html">厂家介绍</a>
+                </li>
+                <li>
+                    <a href="server.html">服务</a>
+                </li>
+                <li >
+                    <a href="down.html">APP下载</a>
+                </li>
+                <li class="active">
+                    <a href="about-us.html">关于我们</a>
+                </li>
+                <li>
+                    <a href="join.html">加入我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--common-header end-->
+    <!--about-us end-->
+    <div class="about">
+        <div class="about-us center ">
+                <div class="about-l fl">
+                     <h2>关于我们</h2>
+                     <ul>
+                         <li>联系我们：</li>
+                         <li>总机：</li>
+                         <li class="ml"><img src="./resource/images/about/电话.png" alt="千店万厂">400-837-3338</li>
+                         <li class="ml"><img src="./resource/images/about/邮箱.png" alt="千店万厂">1853312009@qq.com</li>
+                         <li>商务合作：</li>
+                         <li class="ml"><img src="./resource/images/about/电话.png" alt="千店万厂">400-837-3338</li>
+                         <li class="ml"><img src="./resource/images/about/邮箱.png" alt="千店万厂">1853312009@qq.com</li>
+                         <li>客服：</li>
+                         <li class="ml"><img src="./resource/images/about/电话.png" alt="千店万厂">400-837-3338 </li>
+                         <li>地址：</li>
+                         <li class="ml"><img src="./resource/images/about/地址.png" alt="千店万厂">广州市白云区石井广大鞋城2期民众国际贸易</li>
+                         <li class="ml">邮编：510000</li>
+                     </ul>
+                </div>
+                <div class="about-r fr">
+                        <div class="contact-map center" id="map" style="border:1px solid #ccc"></div>
+                </div>
+        </div>
+    </div>
+
+    <!--connection begin-->
+    <div class="connection">
+        <div class="wrap">
+            <ul class="icon clearfix">
+                <li class="fl">
+                    <ul>
+                        <span>广州民众国际贸易有限公司</span>
+                        <li>Add: 广州市白云区石井广大鞋城2期民众国际贸易</li>
+                        <li>TelT：400-837-3338</li>
+                        <li>QQ：1853312009</li>
+                        <li>E-mail：1853312009@qq.com</li>
+                    </ul>
+                </li>
+                <li class="fr">
+                    <ul>
+                        <span>关注我们:</span>
+                        <div>
+                            <span class="fl">
+                                <img src="./resource/images/index/qq.png" alt="千店万厂"> </span>
+                            &nbsp&nbsp&nbsp&nbsp
+                            <span class="fl">
+                                <img src="./resource/images/index/微信.png" alt="千店万厂">
+                            </span>
+                        </div>
+
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>粤ICP备17099811号 ©2017 广州民众国际贸易有限公司 ©未经许可严禁复制</p>
+        </div>
+    </div>
+    <!--connection end-->
+
+    <!--footer begin-->
+    
+    <!--footer end-->
+
+    <!--goTop begin-->
+    <span class="goTop" id="goTop">
+        <img src="resource/images/index/gotop.png" alt="">
+    </span>
+    <!--goTop end-->
+    <script src="resource/js/lib/jquery-1.9.1.js"></script>
+    <!-- Swiper JS -->
+    <script data-main="modules/src/index" src="resource/js/common/base.js"></script>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.0&key=ef831fab8390a593b27819c26137a1a9"></script>
+    <!-- Initialize Swiper -->
+    <script>
+       var map = new AMap.Map("map", {
+        zoom: 16,
+        // center: [113.341762,23.144348],
+        center:[113.225392,23.196271]
+    });
+    var marker = new AMap.Marker({
+        position: map.getCenter(),
+        // offset : new AMap.Pixel(15,10),
+        map:map
+    });
+    marker.setMap(map);
+        // 设置鼠标划过点标记显示的文字提示
+    // marker.setTitle('我是marker的title');
+
+    // 设置label标签
+    marker.setLabel({//label默认蓝框白底左上角显示，样式className为：amap-marker-label
+        offset: new AMap.Pixel(-120, -55),//修改label相对于maker的位置
+        content: "广州民众国际贸易有限公司"
+    });
+    </script>
+</body>
+
+</html>
